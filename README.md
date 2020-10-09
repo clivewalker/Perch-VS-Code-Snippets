@@ -1,2 +1,2 @@
 # Perch VS Code Snippets
- Snippets for Perch template tage and functions
+ Snippets for Perch template tags and functions.
