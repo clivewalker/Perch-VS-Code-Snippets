@@ -1,0 +1,59 @@
+{
+	// Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// See https://code.visualstudio.com/docs/editor/userdefinedsnippets for more information.
+
+	"PHP": {
+		"prefix": ["php"],
+		"body": ["<?php $0?>"],
+		"description": "PHP Tags"
+	  },
+	"Perch After": {
+		"prefix": ["perchafter", "after"],
+		"body": ["<perch:after>$0</perch:after>"],
+		"description": "Perch After Tags"
+	  },
+	"Perch Before": {
+		"prefix": ["perchbefore", "before"],
+		"body": ["<perch:before>$0</perch:before>"],
+		"description": "Perch Before Tags"
+	  },
+	"Perch Block": {
+		"prefix": ["perchblock", "block"],
+		"body": ["<perch:block type=\"$1\" label=\"$2\" icon=\"$3\"> $0</perch:block>"],
+		"description": "Perch Block Tags"
+	  },
+	"Perch Blocks": {
+		"prefix": ["perchblocks", "blocks"],
+		"body": ["<perch:blocks> $0</perch:blocks>"],
+		"description": "Perch Blocks Tags"
+	  },
+	"Perch Collection": {
+		"prefix": ["perchcollection", "collection", "collect"],
+		"body": ["perch_collection('$1',[$0]);"],
+		"description": "Perch Collection"
+	  },
+	"Perch Content Custom": {
+		"prefix": ["perchcustom", "custom"],
+		"body": ["perch_content_custom('$1',[$0]);"],
+		"description": "Perch Content Custom"
+	  },
+	"Perch Content": {
+		"prefix": ["perchcontent", "content"],
+		"body": ["perch_content('$0');"],
+		"description": "Perch Content Region"
+	  },
+	"Perch Layout": {
+		"prefix": ["perchlayout", "layout"],
+		"body": ["perch_layout('$0');"],
+		"description": "Perch Layout"
+	  },
+	"Perch Repeater": {
+		"prefix": ["perchrepeater", "repeater"],
+		"body": ["<perch:repeater id=\"$1\" label=\"$2\" max=\"$3\">$0</perch:repeater>"],
+		"description": "Perch Repeater Tags"
+	  },
+}
