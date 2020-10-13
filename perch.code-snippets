@@ -56,4 +56,10 @@
 		"body": ["<perch:repeater id=\"$1\" label=\"$2\" max=\"$3\">$0</perch:repeater>"],
 		"description": "Perch Repeater Tags"
 	  },
+	"Perch If": {
+		"prefix": ["perchif", "if"],
+		"body": ["<perch:if exists=\"$1\">$0</perch:if>"],
+		"description": "Perch If Conditional"
+	  },  
+	
 }
